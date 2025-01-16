@@ -14,9 +14,24 @@ export default {
         muted: 'var(--aw-color-text-muted)',
       },
       fontFamily: {
-        sans: ['var(--aw-font-sans, ui-sans-serif)', ...defaultTheme.fontFamily.sans],
-        serif: ['var(--aw-font-serif, ui-serif)', ...defaultTheme.fontFamily.serif],
-        heading: ['var(--aw-font-heading, ui-sans-serif)', ...defaultTheme.fontFamily.sans],
+        sans: [
+          'Source Han Sans SC', 
+          'Noto Sans SC',
+          'var(--aw-font-sans, ui-sans-serif)', 
+          ...defaultTheme.fontFamily.sans
+        ],
+        serif: [
+          'Source Han Serif SC',
+          'Noto Serif SC',
+          'var(--aw-font-serif, ui-serif)', 
+          ...defaultTheme.fontFamily.serif
+        ],
+        heading: [
+          'Source Han Sans SC',
+          'Noto Sans SC',
+          'var(--aw-font-heading, ui-sans-serif)', 
+          ...defaultTheme.fontFamily.sans
+        ],
       },
 
       animation: {
